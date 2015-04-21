@@ -6,11 +6,14 @@ A benchmark of some ways to convert lists of ids (int) to strings and back.
 Note: this is an sql antipattern called "Jaywalking" and is not recommended.
 It is best to use a table for these relationships.
 
-setup
+Setup
 -----
-+ ```git clone https://github.com/elbow-jason/hstore-id-conversion-benchmark.git```
-+ ```cd hstore-id-conversion-benchmark```
-+ ```python run.py```
+
+```$ git clone https://github.com/elbow-jason/hstore-id-conversion-benchmark.git```
+
+```$ cd hstore-id-conversion-benchmark```
+
+```$ python run.py```
 
 Results for Python
 ------------------
@@ -33,7 +36,6 @@ $ python run.py
 
 Results for Pypy
 ----------------
-
 
 ```bash
 
