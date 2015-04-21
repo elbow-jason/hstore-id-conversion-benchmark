@@ -17,14 +17,7 @@ Results for Python
 
 ```bash
 
-(env)elbow@elbow-jason $ python run.py
-starting json_dumps
-starting join_on_space
-starting baseline
-starting list_to_str
-starting set_to_list
-starting baseline
-starting json_loads
+$ python run.py
 
 === TO STRING RESULTS ===
        baseline     0.0102sec
@@ -44,17 +37,11 @@ Results for Pypy
 
 ```bash
 
-(env)elbow@elbow-comp $ pypy --version
+$ pypy --version
 Python 2.7.3 (2.2.1+dfsg-1ubuntu0.2, Dec 02 2014, 23:00:55)
 [PyPy 2.2.1 with GCC 4.8.2]
-(env)elbow@elbow-comp $ pypy run.py
-starting json_dumps
-starting join_on_space
-starting baseline
-starting list_to_str
-starting set_to_list
-starting baseline
-starting json_loads
+
+$ pypy run.py
 
 === TO STRING RESULTS ===
        baseline     0.0014sec
